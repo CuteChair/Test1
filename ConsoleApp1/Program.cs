@@ -2,15 +2,15 @@
 
 
 
-Console.Write("Bonjour, quelle est votre nom : ");
+Console.Write("Hi, whats your name: ");
 string n = Console.ReadLine();
 
 //string interpolation
-Console.WriteLine($"Bienvenue {n} dans l<application!");
-Console.Write("entrer une temperature : ");
+Console.WriteLine($"Welcome {n} in the app!");
+Console.Write("enter a temperature : ");
 
 double celc = Convert.ToDouble(Console.ReadLine());
 double far = celc * 9 / 5 + 32;
 
-Console.WriteLine($"Il fait {far} degres fahrenheit: ");
+Console.WriteLine($"Its {far} degres fahrenheit outside: ");
 Console.ReadKey();
